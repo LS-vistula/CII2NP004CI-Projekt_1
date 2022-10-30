@@ -1,12 +1,82 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./stylesheets/style1.css">
-    </head>
-    <body>
-        <p>paragraf 1</p>
-        <p>paragraf 2</p>
-        <table>
-            
-        </table>
-    </body>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Projekt 1 - html</title>
+</head>
+
+<body background="./images/stars.jpg" text="white" link="yellow" vlink="yellow" alink="yellow">
+    <h1>Witaj na <font color="yellow"> <i>'Wykopaliskach Internetowych'</i></font>
+    </h1>
+    <br />
+    <h3>Znajdziesz tu strony odnalezione przez Wydział Arceheologii Uniwersytetu Internetowego</h3>
+    <p>Na stronie zaprezentowane są ostatnie odkrycia zespołu badawczego:</p>
+    <font color="orange">
+        <ul>
+            <li>
+                <i>dr prof. inż. adiunkt</i> Andrzej Kopalny
+            </li>
+            <li>
+                <i>mgr hab.</i> Stefan Alojzy Wieprz
+            </li>
+            <li>
+                <i>inż.</i> Edward Mrównica
+            </li>
+            <li>
+                profesor lic. Alicja Gołąb
+            </li>
+        </ul>
+    </font>
+    <p>
+        <font face="Times New Roman" size="10" color="blue">
+            Strony zostały odnalezione na stanowisku archeologicznym w domenie <b>.pl</b></font>
+    </p>
+
+
+    <ol>
+        <li><a href="./subpage1.html">Strona pierwsza - początki ery ruchomych obrazków, koloryzowane</a></li>
+        <li><a href="./subpage2.html">Drugie znalezisko - datowane na końcówkę XX wieku </a></li>
+        <li><a href="./subpage3.html">Typowy przykład dbałości o jakość</a></li>
+    </ol>
+
+    <br />
+    <br />
+    <p>
+    <h3>Zgłoś nowe znalezisko:</h3>
+    <form action="na_razie_brak" method="post">
+        adres URL strony: <input type="text" name="adres" /> <br />
+        lata: 
+        <select name="lata">
+            <option>80-te</option>
+            <option>90-te</option>
+            <option>późne 90-te/przełom 2000 roku</option>
+        </select>
+        <br />
+        klasyfikacja brzydoty: <br />
+        <input type="radio" name="brzydota" value="w_miare" /> Nie wygląda najgorzej <br />
+        <input type="radio" name="brzydota" value="tak_sobie" /> Ujdzie <br />
+        <input type="radio" name="brzydota" value="brzydka" /> Brzydka <br />
+        <input type="radio" name="brzydota" value="paskudna" checked="checked" /> paskudna <br />
+        <input type="radio" name="brzydota" value="koszmar" /> oczy wypala <br />
+        w domenie .pl?:
+        <input type="checkbox" name="czy_nasza" value="tak" /> <br />
+        <input type="submit" value="Wyślij" /> <br />
+    </form>
+    </p>
+
+    <br /><br />
+    <a href="http://nieistniejacyadres.bla">Strona głowna Uniwersytetu</a><br />
+    <p><a href="mailto:nieistniejacy.adres@example.com">Napisz do nas</a></p>
+
+    <hr />
+    <p>
+        <font color="#9ACD32">Strona najlepiej wyświetla się w najnowszej przeglądarce Netscape Navigator 2.0
+            <img src="./images/netscape20.jpg"> i w rozdzielczości 800x600
+        </font>
+    </p>
+    <img src="./images/apache_pb2_ani.gif" height="30">
+
+</body>
+
 </html>
